@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+}
+
+body {
+    min-height: 1000px;
+}
+
+a {
+    text-decoration: none;
+}
+a:visited{
+    color: #222222;
+}
+
+section {
+    padding: 100px;
+}
+
+.intro {
+    position: relative;
+    width: 100%;
+    min-height: 840px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(images/anow.png);
+    background-size: cover;
+}
+
+.content {
+    max-width: 632px;
+    text-align: center;
+}
+
+.content p {
+    font-weight: 400;
+    font-size: 70px;
+    line-height: 85px;
+    color: #fff;
+    letter-spacing: 5px;
+}
+
+.buttons {
+    width: 100%;
+    margin-top: 41px;
+    padding: 0 151px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.buttons a {
+    color: #fff;
+
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 30px;
+    padding: 13px 38px;
+    border: 2px solid #FD8558;
+    transition: 0.5s;
+}
+
+.buttons a:hover {
+    background-color: #FD8558;
+}
+
+.logo {
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 45px;
+
+    letter-spacing: 1.1px;
+    color: #222222;
+}
+
+header {
+    top: 0;
+    left: 0;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+    background: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 409px 10px 86px;
+}
+
+nav {
+    position: relative;
+    display: flex;
+    transition: 0.5s;
+}
+
+nav li {
+    
+    list-style: none;
+    margin-left: 30px;
+    
+}
+
+nav li a{
+    transition: 0.3s;
+}
+
+nav li :hover {
+    color: #FD8558;
+}
